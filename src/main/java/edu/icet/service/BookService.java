@@ -18,7 +18,7 @@ public class BookService {
 
     public void add(){
         Book book= new Book(
-                1L,
+                6L,
                 "Madol Duwa",
                 "Martin",
                 "Sarasavi",
@@ -28,5 +28,7 @@ public class BookService {
         );
 
         bookRepository.save(book);
+        System.out.println(book);
     }
+
 }
